@@ -21,10 +21,19 @@ for (var number = 1; number < 101; number ++) {
     console.log(number);
   }
 }
-/*Took a while to realize that "Fizzbuzz" had to be moved to the top of the order */
+/*Took a while to realize that "Fizzbuzz" had to be moved to the top of the order
+above "Fizz" and "Buzz" respectively */
 
 
 // CHESS BOARD
 // My Attempt
-
-/* */
+var space = "# # # # ";
+var hash = " # # # #";
+for (var i=2; i<10; i++) {
+  if (i % 2){
+    console.log(space);
+  } else {
+    console.log(hash);
+  } 
+}
+/*Looks correct like in the example :)
